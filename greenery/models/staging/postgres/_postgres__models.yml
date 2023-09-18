@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_postgres__products
+    description: This is a dict of products
+    columns: 
+      - name: product_id
+      - name: product_name
+      - name: price
+      - name: inventory
+
+  - name: stg_postgres__promos
+    description: This is about promos
+    columns: 
+      - name: promo_id
+      - name: discount
+      - name: status
+     
