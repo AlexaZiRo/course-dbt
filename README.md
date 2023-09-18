@@ -11,11 +11,11 @@ How many total users?
 
 130
 
---
+---
 SELECT COUNT(*) AS total_users
 FROM 
 dev_db.dbt_alexazimmermanngmailcom.stg_postgres__users;
---
+---
 
 On average, how many orders do we receive per hour?SELECT AVG(order_count) AS average_orders_per_hour
 
